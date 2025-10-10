@@ -8,6 +8,7 @@ __pycache__/
 
 
 transaction_file.gzip
+data/
 
 # Distribution / packaging
 .Python
