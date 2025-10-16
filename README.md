@@ -8,7 +8,7 @@
 For every edge in the graph, the algorithm builds an **interval representation** $(t_{min}, t_{max})$ summarizing the earliest and latest observed timestamps. This provides a **lightweight temporal abstraction** used for fast preliminary pruning before fine-grained timestamp validation.
 
 **Why Building an interval-based temporal adjacency (min, max) ?** 
-significantly improves performance by avoiding repeated per-edge timestamp scans.  Instead of recomputing the minimum and maximum times every time an edge is accessed, these values are pre-computed once and stored.
+significantly improves performance by avoiding repeated per-edge timestamp scans.  Instead of recomputing the minimum and maximum times every temporal edge is accessed, these values are pre-computed once and stored.
 
 ### 2) Strongly Connected Components decomposition
 
